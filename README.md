@@ -33,14 +33,14 @@ Truck Routes
       ↓
 Distance / Fuel / CO₂ Calculation
       ↓
-Comparison Dashboard
+comparision Dashboard
 ```
 
 ## Key Features
 
 * Simulated dynamic waste accumulation
 * Dynamic identification of bins requiring collection
-* Static vs Dynamic collection comparison
+* Static vs Dynamic collection comparision
 * Vehicle routing using Google OR-Tools
 * Truck capacity constraints
 * Depot-based routing
@@ -64,7 +64,7 @@ Comparison Dashboard
 
 ```text
 ├── app.py
-├── comparison.py
+├── comparision.py
 ├── route_optimizer.py
 ├── locations.csv
 ├── road_distance_matrix.csv
@@ -76,7 +76,7 @@ Comparison Dashboard
 
 The main Streamlit application and user interface.
 
-### `comparison.py`
+### `comparision.py`
 
 Runs the collection simulations and compares the Static, Dynamic, and OR-Tools approaches.
 
@@ -98,7 +98,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/neeldeep-np/8GB-RAM-Waste-Route-Optimizer
-cd dynamic-waste-route-optimization
+cd 8GB-RAM-Waste-Route-Optimizer
 ```
 
 Install the required dependencies:
